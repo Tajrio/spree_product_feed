@@ -6,4 +6,4 @@ module Spree
   end
 end
 
-Spree::ProductsController.prepend Spree::ProductsControllerDecorator
+Spree::Admin::ProductsController.prepend Spree::ProductsControllerDecorator
